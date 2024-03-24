@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- logo website frnt end mentor -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Newsletter sign up</title>
+  </head>
+  <body>
+    <!-- #STATES -->
+    <section class="states" data-states>
+      <figure>
+        <img src="./assets/images/illustration-sign-up-mobile.svg" class="img-phone img-cover">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" class="img-desktop">
+      </figure>
+      <div class="states-content">
+        <h1>Stay updated!</h1>
+        <p class="pragraf">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="states-list">
+          <li class="states-box">
+            <img src="./assets/images/icon-list.svg">
+            <p>Product discovery and building what matters</p>
+          </li>
+          <li class="states-box">
+            <img src="./assets/images/icon-list.svg">
+            <p>Measuring to ensure updates are a success</p>
+          </li>
+          <li class="states-box">
+            <img src="./assets/images/icon-list.svg">
+            <p>And much more!</p>
+          </li>
+        </ul>
+
+        <form action="#">
+          <div class="input-box">
+            <label for="Email address">Email address</label>
+            <div class="error" data-error>Valid email required</div>
+            <input onkeyup="emailAddress(this.value.toLowerCase())" id="Email address" type="text" placeholder="email@company.com" data-email>
+          </div>
+
+          <button type="submit" class="btn" data-btn-states>
+            <span>Subscribe to monthly newsletter</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- #SUCCESS -->
+    <section class="success" data-success>
+      <div class="success-content">
+        <img src="./assets/images/icon-success.svg">
+        <h1>Thanks for subscribing!</h1>
+        <p>A confirmation email has been sent to <b>ash@loremcompany.com.</b> 
+        Please open it and click the button inside to confirm your subscription.</p>
+      </div>
+
+      <button class="btn" data-btn-success>
+        <span>Dismiss message</span>
+      </button>
+    </section>
+
+    <!-- custom js link -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
