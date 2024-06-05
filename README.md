@@ -1,4 +1,4 @@
-<p align="center" style="color:red;">Note: The files are located in the master branch.</p>
+<p style="color:red;">Note: The files are located in the master branch.</p>
 
 <h1 align="center">newsletter-sign</h1>
 <p align="center">The Newsletter-Sign project makes it easy to sign up for newsletters, providing a simple sign-up form and integration with popular email services It was created using languages HTML CSS JS</p>
